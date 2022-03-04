@@ -40,7 +40,7 @@ while $PROGRUN; do
 	read -p "Create image retry? [y/n]: " SELECT
 	if ! [ "$SELECT" = "y" ]; then
         	PROGRUN=false
-    	fi
+    fi
 
 done
 
